@@ -117,7 +117,7 @@
     </div>
  <!------------------------------------------------------------>
  <footer id="kontakt">
-      <p v-on:click="bug()"> Našli ste bug? Prijavite ga <a>ovdje</a></p>
+      <p > Našli ste bug? Prijavite ga <span><a v-on:click="bug()">ovdje</a></span></p>
       <p>Telefon: </p>
       <p>Email: </p>
       <p>Adresa: (Grad, Poštanski broj)</p>
@@ -268,6 +268,7 @@ export default {
 		#bg-modal{
 			margin: auto;
 		}
+
 		footer p a {
 			color: #330000;
 			font-weight: bold;
