@@ -332,8 +332,9 @@ export default {
 			display: block;
 			background-image: url("imgs/logo.png");
 			background-attachment: fixed;
+			background-size: auto;
 			background-repeat: no-repeat;
-			background-position: center; 
+   		background-position: 50% 0%; 
 			}
 
 			#dodaj-pjesmu{
